@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <ul id="nav-menu">
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Hi, I'm <span>Leon Jae</span></h1>
+    <p><span id="typed-text"></span><span class="cursor">|</span></p>
+    <a href="#projects">View My Work</a>
+  </section>
+
+  <!-- About Section -->
+  <!-- About Section -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-wrapper">
+   <img src="assets/images/profile.jpg" alt="Your Name" class="profile-img" style="opacity:1 !important; width:180px; height:180px;"/>
+    <p>I am a passionate Computer Science student with a strong interest in web development and problem solving. I enjoy building clean and user-friendly websites. I am always eager to learn new technologies and improve my skills. Currently looking for internship and freelance opportunities to grow my career.</p>
+  </div>
+</section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project Name</h3>
+      <p>Short description of the project.</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Have a project in mind or just want to say hi? Drop a message!</p>
+
+  <div class="contact-wrapper">
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button id="submit-btn">Send Message</button>
+      <p id="form-status"></p>
+    </div>
+
+    <!-- Contact Links -->
+    <div class="contact-links">
+      <a href="mailto:youremail@example.com">📧 Email</a>
+      <a href="https://github.com/" target="_blank">🐙 GitHub</a>
+      <a href="https://linkedin.com/" target="_blank">💼 LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+  <script src="script.js"></script>
+</body>
+</html>
